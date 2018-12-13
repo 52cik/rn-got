@@ -1,0 +1,23 @@
+{
+  "name": "rn-got",
+  "version": "0.1.0",
+  "description": "react native fetch helper.",
+  "main": "lib/got.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/rn-got.git"
+  },
+  "keywords": [
+    "react native",
+    "fetch"
+  ],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/rn-got/issues"
+  },
+  "homepage": "https://github.com/52cik/rn-got#readme"
+}
