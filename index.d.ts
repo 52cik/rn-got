@@ -1,4 +1,4 @@
-export default got;
+export = got;
 
 declare const got: got.GotFn &
   Record<'get' | 'post' | 'put' | 'patch' | 'head' | 'delete', got.GotFn>;
@@ -17,10 +17,11 @@ declare namespace got {
   interface GotOptions {
     query?: string | object;
     body?: string | object;
-    // timeout?: number;
+    timeout?: number;
 
-    ajax?: boolean;
+    form?: boolean;
     json?: boolean;
+    ajax?: boolean;
     referer?: string;
     callbackName?: string;
   }
